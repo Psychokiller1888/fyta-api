@@ -1,0 +1,24 @@
+_id: req_ed1991cd8fb0451ea0a334247ae1b8b6
+type: Request
+parentId: wrk_df9b2090c9a34e328362fb24e7afe276
+modified: 1672761942786
+created: 1672761793085
+url: https://web.fyta.de/api/user-plant/{{ _.plantId }}
+name: plant
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1631664392861.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
