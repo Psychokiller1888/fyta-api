@@ -1,0 +1,29 @@
+_id: req_fc1a1818e2f44b43a138435a8448b9e3
+type: Request
+parentId: wrk_df9b2090c9a34e328362fb24e7afe276
+modified: 1681024286385
+created: 1681024224931
+url: https://web.fyta.de/api/auth/login
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "{{ _.email }}",
+    	"password": "{{ _.password }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1681024224931
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

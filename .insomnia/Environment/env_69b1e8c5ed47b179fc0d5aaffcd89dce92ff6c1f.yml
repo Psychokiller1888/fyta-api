@@ -1,16 +1,20 @@
 _id: env_69b1e8c5ed47b179fc0d5aaffcd89dce92ff6c1f
 type: Environment
 parentId: wrk_df9b2090c9a34e328362fb24e7afe276
-modified: 1672761912172
+modified: 1681024579768
 created: 1672760000214
 name: Base Environment
 data:
   plantId: 1
   token: ""
+  email: ""
+  password: ""
 dataPropertyOrder:
   "&":
     - plantId
     - token
+    - email
+    - password
 color: null
 isPrivate: false
 metaSortKey: 1672760000214
