@@ -1,11 +1,36 @@
 _id: req_b4a73055e8e746c3ae12370eb08b59d7
 type: Request
 parentId: wrk_df9b2090c9a34e328362fb24e7afe276
-modified: 1672761963076
+modified: 1681217158595
 created: 1672760777040
 url: https://web.fyta.de/api/user
-name: user
-description: ""
+name: User account
+description: |-
+  Retrieve your profile data
+
+  <!-- RESPONSE -->
+
+  {
+  	"profileData": {
+  		"id": 110,
+  		"uuid": "",
+  		"email": "john@doe.com",
+  		"status": 1,
+  		"lang": "en",
+  		"username": "John Doe",
+  		"birth_date": "01-01-1970",
+  		"plants_knowledge": 1,
+  		"plants_owned": 1,
+  		"city": "Gardenville",
+  		"country": "Botanica",
+  		"temperature_unit": 1,
+  		"fb_id": null,
+  		"google_id": null,
+  		"apple_id": null
+  	}
+  }
+
+  <!-- ENDRESPONSE -->
 method: GET
 body: {}
 parameters: []

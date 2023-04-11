@@ -1,11 +1,70 @@
 _id: req_8140477f080646a6b61595881c8f57f8
 type: Request
 parentId: wrk_df9b2090c9a34e328362fb24e7afe276
-modified: 1672761971718
+modified: 1681217005518
 created: 1672760158702
 url: https://web.fyta.de/api/user-plant
-name: user-plant
-description: ""
+name: Get user plants
+description: |-
+  Retrieves all your plants connected to your account
+
+  <!-- RESPONSE -->
+
+  {
+    "gardens": [
+      {
+        "id": 123,
+        "garden_name": "Home",
+        "origin_path": null,
+        "thumb_path": null,
+        "mac_address": null
+      }
+    ],
+    "plants": [
+      {
+        "id": 12,
+        "nickname": "Ficus benjamina 1",
+        "scientific_name": "Ficus benjamina",
+        "status": 2,
+        "plant_id": 201,
+        "family_id": null,
+        "wifi_status": 1,
+        "thumb_path": "<url>",
+        "origin_path": "<url>",
+        "plant_thumb_path": "<url>",
+        "plant_origin_path": "<url>",
+        "received_data_at": "2023-01-00 10:10:00",
+        "temperature_optimal_hours": 22,
+        "light_optimal_hours": 0,
+        "temperature_status": 2,
+        "light_status": 1,
+        "moisture_status": 3,
+        "salinity_status": 2,
+        "garden": {
+          "id": 123
+        },
+        "sensor": {
+          "id": "AA:AA:AA:2B:AF:F4",
+          "has_sensor": true,
+          "status": 1,
+          "uuid_android": null,
+          "uuid_ios": "4AAAAAA6F-0457-3233-8A43-032B5377E763",
+          "version": "0.30.0",
+          "is_battery_low": false,
+          "received_data_at": "2023-01-01 10:10:00"
+        },
+        "hub": {
+          "id": 123,
+          "hub_id": "AA:AA:AA:27:7D:6A",
+          "status": 1,
+          "received_data_at": "2023-01-01 01:10:01",
+          "reached_hub_at": "2023-01-01 10:10:01"
+        }
+      }
+    ]
+  }
+
+  <!-- ENDRESPONSE -->
 method: GET
 body: {}
 parameters: []

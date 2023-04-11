@@ -1,11 +1,24 @@
 _id: req_c24481244b2e465a86cedf12ac0aa049
 type: Request
 parentId: wrk_df9b2090c9a34e328362fb24e7afe276
-modified: 1681214727837
+modified: 1681216955487
 created: 1681214674065
 url: https://web.fyta.de/api/auth/refresh
-name: refresh token
-description: ""
+name: Refresh token
+description: |-
+  Refresh your auth token with your refresh token
+
+  <!-- RESPONSE -->
+
+  {
+      "access_token": "111111111111111111111111111111111111111",
+      "token_type": "Bearer",
+      "expires_in": 5184000,
+      "refresh_token": "2222222222222222222222222222222222222222",
+      "scope": "mobile"
+  }
+
+  <!-- ENDRESPONSE -->
 method: POST
 body:
   mimeType: application/json
